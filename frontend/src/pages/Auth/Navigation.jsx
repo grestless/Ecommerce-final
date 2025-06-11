@@ -74,7 +74,8 @@ const Navigation = () => {
             </div>
 
             <div className="realtive">
-                <button onClick={toggleDropdown} className="flex items-center text-gray-8000 focus:outline-none">
+                <button onClick={toggleDropdown} 
+                className="flex items-center text-gray-8000 focus:outline-none">
                    {userInfo ? <span className="text-white">{userInfo.username}</span> : (<></>)}
                 </button>
             </div>
